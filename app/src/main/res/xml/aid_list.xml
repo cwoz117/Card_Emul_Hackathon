@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- BEGIN_INCLUDE(CardEmulationXML) -->
+<host-apdu-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/NFCCardEmu"
+    android:requireDeviceUnlock="false">
+
+    <aid-group android:description="@string/card_title" android:category="other">
+        <aid-filter android:name="F222222222"/>
+    </aid-group>
+    <!-- END_INCLUDE(CardEmulationXML) -->
+</host-apdu-service>

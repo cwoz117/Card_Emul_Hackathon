@@ -1,0 +1,9 @@
+<resources>
+    <string name="NFCCardEmu">NFCCardEmu</string>
+    <string name="service_name">nfcCardEmuService</string>
+    <string name="card_title">unicard!</string>
+    <string name="app_name">Unicard Authentication System</string>
+    <string name="intro_message">
+    </string>
+    <string name="done">DONE</string>
+</resources>
